@@ -77,7 +77,7 @@ console.log(randomValueValue);
 
 // Set Category Info
 document.querySelector(".game-info .category span").innerHTML =
-  randomPropName + "  " + randomValueValue;
+  randomPropName ;
 
 // Select Letters Guess Element
 let lettersGuessContainer = document.querySelector(".letter-guess");
